@@ -1,0 +1,13 @@
+DROP TABLE demo;
+
+-- Criação da tabela Aluno
+CREATE TABLE Aluno (
+    id_aluno INT PRIMARY KEY, -- Identificação única do aluno
+    nome VARCHAR(50),
+    idade INT
+);
+
+-- Criação da tabela Professor
+CREATE TABLE Professor (
+    id_professor INT PRIMARY KEY, -- Identificação única do professor
+    nome_professor VARCHAR(50),
